@@ -141,7 +141,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={['fab', 'instagram']} />
             </a>
             <a href="mailto:duvikan@gmail.com">
-              <FontAwesomeIcon icon={['far', 'envelope']} />
+              <FontAwesomeIcon icon={['fab', 'envelope']} />
             </a>
           </SocialIcons>
         </GridLayout>

@@ -22,13 +22,53 @@ import {
   faFacebookF,
 } from '@fortawesome/free-brands-svg-icons';
 
+// import {
+//   // faBars,
+//   faLongArrowAltRight,
+//   faLongArrowAltLeft,
+//   faClock,
+//   faCalendarAlt,
+//   faEnvelope,
+//   faEnvelopeSquare,
+//   faPhone,
+//   faFilePdf,
+//   faPercent,
+//   faPercentage,
+//   faCalendar,
+//   faInfo,
+//   faInfoCircle,
+//   faMapMarkerAlt,
+// } from '@fortawesome/pro-regular-svg-icons';
+
+// import { faBars, faTimes, faAt } from '@fortawesome/pro-duotone-svg-icons';
+
+import { far } from '@fortawesome/free-regular-svg-icons'
+
+
 library.add(
+  far,
   faInstagram,
   faFacebookSquare,
   faFacebook,
   faFacebookF,
+  // faBars,
+  // faLongArrowAltRight,
+  // faLongArrowAltLeft,
+  // faClock,
+  // faCalendarAlt,
+  // faTimes,
+  // faEnvelope,
+  // faEnvelopeSquare,
+  // faPhone,
+  // faFilePdf,
+  // faPercent,
+  // faPercentage,
+  // faCalendar,
+  // faInfo,
+  // faInfoCircle,
+  // faAt,
+  // faMapMarkerAlt
 );
-
 const SiteWrapper = styled.div`
   display: flex;
   min-height: 100%;
