@@ -245,7 +245,7 @@ const BlogPost = ({ data }) => {
       <GridLayout>
         <GoBack>
           <Link to="/blog" className="btn">
-            <FontAwesomeIcon icon={['far', 'long-arrow-alt-left']} /> Všetky
+            <FontAwesomeIcon icon="fa-regular fa-arrow-left-long" /> Všetky
             príspevky
           </Link>
         </GoBack>
@@ -259,13 +259,9 @@ const BlogPost = ({ data }) => {
               {author.name}
             </div>
             <LastUpdate title="Dátum publikácie">
-              <FontAwesomeIcon icon={['far', 'calendar-alt']} />{' '}
+              <FontAwesomeIcon icon="fa-regular fa-calendar" />{' '}
               <Moment format="DD.MM.YYYY">{publicationDate}</Moment>
             </LastUpdate>
-            {/* <TimeToRead title="Čas na prečítanie textu">
-              <FontAwesomeIcon icon={['far', 'clock']} />{' '}
-              {contentNode.childMarkdownRemark.timeToRead} min.
-            </TimeToRead> */}
           </PostInfo>
         </PostInfoWrap>
       </GridLayout>

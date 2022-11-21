@@ -239,15 +239,11 @@ const BlogPostItem = props => {
           <div className="authorName">{props.node.author.name}</div>
           <FontAwesomeIcon
             className="calendarIcon"
-            icon={['far', 'calendar-alt']}
+            icon="fa-regular fa-calendar"
           />{' '}
           <Moment className="createdAtTime" format="DD.MM.YYYY">
             {props.node.publicationDate}
           </Moment>
-          {/* <FontAwesomeIcon className="clockIcon" icon={['far', 'clock']} />{' '}
-          <span className="timeToRead">
-            {props.node.contentNode.childMarkdownRemark.timeToRead} min.
-          </span> */}
         </div>
       </Link>
     </li>

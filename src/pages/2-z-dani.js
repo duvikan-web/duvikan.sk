@@ -111,7 +111,7 @@ const PercentaPage = () => {
                 href={potvrdenieDokument.url}
                 title={'Otvoriť PDF dokument: ' + potvrdenieDokument.title}
               >
-                <FontAwesomeIcon className="icon" icon={['far', 'file-pdf']} />{' '}
+                <FontAwesomeIcon className="icon" icon="fa-regular fa-file-pdf" />{' '}
                 {potvrdenieDokument.title}
               </a>
             </li>
@@ -120,7 +120,7 @@ const PercentaPage = () => {
                 href={vyhlasenieDokument.url}
                 title={'Otvoriť PDF dokument: ' + vyhlasenieDokument.title}
               >
-                <FontAwesomeIcon className="icon" icon={['far', 'file-pdf']} />{' '}
+                <FontAwesomeIcon className="icon" icon="fa-regular fa-file-pdf" />{' '}
                 {vyhlasenieDokument.title}
               </a>
             </li>

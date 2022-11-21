@@ -613,7 +613,7 @@ const IndexPage = () => {
                         {post.node.contentNode.childMarkdownRemark.excerpt}
                       </p>
                       <div className="timePosted">
-                        <FontAwesomeIcon icon={['far', 'calendar-alt']} />{' '}
+                        <FontAwesomeIcon icon="fa-regular fa-calendar" />{' '}
                         <Moment format="DD.MM.YYYY">
                           {post.node.publicationDate}
                         </Moment>
@@ -628,7 +628,7 @@ const IndexPage = () => {
           <ViewMoreLink>
             <Link to="/blog">
               Zobraziť všetky príspevky{' '}
-              <FontAwesomeIcon icon={['far', 'long-arrow-alt-right']} />{' '}
+              <FontAwesomeIcon icon="fa-regular fa-arrow-left-long" />{' '}
             </Link>
           </ViewMoreLink>
 

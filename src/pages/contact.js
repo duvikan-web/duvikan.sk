@@ -190,7 +190,7 @@ const ContactPage = () => {
           <ContactCard>
             <div className="innerBox">
               <h3>
-                <FontAwesomeIcon className="icon" icon={['far', 'envelope']} />{' '}
+                <FontAwesomeIcon className="icon" icon="fa-regular fa-envelope" />{' '}
                 E-mail
               </h3>
               <p>{email}</p>
