@@ -409,13 +409,13 @@ const PaginationLink = props => {
       return (
         <Link className={props.class} to={'/blog/' + props.url}>
           <span>{props.text}</span>{' '}
-          <FontAwesomeIcon icon="fa-solid fa-right-long" />
+          <FontAwesomeIcon icon="fa-regular fa-right-long" />
         </Link>
       );
     } else if (props.class === 'previous') {
       return (
         <Link className={props.class} to={'/blog/' + props.url}>
-          <FontAwesomeIcon icon="fa-solid fa-left-long" />{' '}
+          <FontAwesomeIcon icon="fa-regular fa-left-long" />{' '}
           <span>{props.text}</span>
         </Link>
       );
@@ -425,13 +425,13 @@ const PaginationLink = props => {
       return (
         <div className={`${props.class} disabled`}>
           <span>{props.text}</span>{' '}
-          <FontAwesomeIcon icon="fa-solid fa-right-long" />
+          <FontAwesomeIcon icon="fa-regular fa-right-long" />
         </div>
       );
     } else if (props.class === 'previous') {
       return (
         <div className={`${props.class} disabled`}>
-         <FontAwesomeIcon icon="fa-solid fa-left-long" />{' '}
+         <FontAwesomeIcon icon="fa-regular fa-left-long" />{' '}
           <span>{props.text}</span>
         </div>
       );
