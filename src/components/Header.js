@@ -304,10 +304,10 @@ class Header extends Component {
           </NavList>
           <ToggleButton onClick={() => this.toggleMobileNav()}>
             {!this.state.mobileNavOpen && (
-              <FontAwesomeIcon icon={['fad', 'bars']} />
+              <FontAwesomeIcon icon={['far', 'bars']} />
             )}
             {this.state.mobileNavOpen && (
-              <FontAwesomeIcon icon={['fad', 'times']} />
+              <FontAwesomeIcon icon={['far', 'times']} />
             )}
           </ToggleButton>
         </GridLayout>
