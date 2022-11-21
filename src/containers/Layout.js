@@ -21,48 +21,12 @@ import {
   faFacebook,
   faFacebookF,
 } from '@fortawesome/free-brands-svg-icons';
-import {
-  // faBars,
-  faLongArrowAltRight,
-  faLongArrowAltLeft,
-  faClock,
-  faCalendarAlt,
-  faEnvelope,
-  faEnvelopeSquare,
-  faPhone,
-  faFilePdf,
-  faPercent,
-  faPercentage,
-  faCalendar,
-  faInfo,
-  faInfoCircle,
-  faMapMarkerAlt,
-} from '@fortawesome/pro-regular-svg-icons';
-
-import { faBars, faTimes, faAt } from '@fortawesome/pro-duotone-svg-icons';
 
 library.add(
   faInstagram,
   faFacebookSquare,
   faFacebook,
   faFacebookF,
-  faBars,
-  faLongArrowAltRight,
-  faLongArrowAltLeft,
-  faClock,
-  faCalendarAlt,
-  faTimes,
-  faEnvelope,
-  faEnvelopeSquare,
-  faPhone,
-  faFilePdf,
-  faPercent,
-  faPercentage,
-  faCalendar,
-  faInfo,
-  faInfoCircle,
-  faAt,
-  faMapMarkerAlt
 );
 
 const SiteWrapper = styled.div`
@@ -92,6 +56,7 @@ const Layout = ({ children, location }) => {
     <SiteWrapper>
       <Reboot />
       <Global />
+      {/* <script src="https://kit.fontawesome.com/fa9bdb65b9.js" crossorigin="anonymous"></script> */}
       <Header isHome={isHome} />
       {/* <Transition location={location}> */}
       <ContentWrapper>{children}</ContentWrapper>
