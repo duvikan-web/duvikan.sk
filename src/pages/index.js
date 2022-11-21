@@ -628,7 +628,7 @@ const IndexPage = () => {
           <ViewMoreLink>
             <Link to="/blog">
               Zobraziť všetky príspevky{' '}
-              <FontAwesomeIcon icon="fa-regular fa-arrow-left-long" />{' '}
+              <FontAwesomeIcon icon="fa-regular fa-circle-left" />{' '}
             </Link>
           </ViewMoreLink>
 

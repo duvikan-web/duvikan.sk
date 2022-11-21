@@ -245,7 +245,7 @@ const BlogPost = ({ data }) => {
       <GridLayout>
         <GoBack>
           <Link to="/blog" className="btn">
-            <FontAwesomeIcon icon="fa-regular fa-arrow-left-long" /> Všetky
+          <FontAwesomeIcon icon="fa-regular fa-circle-left" /> Všetky
             príspevky
           </Link>
         </GoBack>

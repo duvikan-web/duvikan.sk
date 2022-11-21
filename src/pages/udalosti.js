@@ -153,7 +153,7 @@ const UdalostiPage = () => {
                 {
                   event.location &&
                   <a target="_blank" title="Otvoriť mapu s miestom konania udalosti" href={`https://www.google.com/maps/search/?api=1&query=${event.location.latitude},${event.location.longitude}`}>
-                    <FontAwesomeIcon icon="fa-regular fa-location-dot" />
+                    <FontAwesomeIcon icon="fa-regular fa-map" />
                   </a>
                 }
               </Event>
@@ -184,7 +184,7 @@ const UdalostiPage = () => {
                   {
                     event.location &&
                     <a target="_blank" href={`https://www.google.com/maps/search/?api=1&query=${event.location.latitude},${event.location.longitude}`}>
-                      <FontAwesomeIcon icon="fa-regular fa-location-dot" />
+                      <FontAwesomeIcon icon="fa-regular fa-map" />
                     </a>
                   }
                 </Event>
