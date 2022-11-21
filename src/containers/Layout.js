@@ -56,7 +56,7 @@ const Layout = ({ children, location }) => {
     <SiteWrapper>
       <Reboot />
       <Global />
-      {/* <script src="https://kit.fontawesome.com/fa9bdb65b9.js" crossorigin="anonymous"></script> */}
+      <script src="https://kit.fontawesome.com/fa9bdb65b9.js" crossorigin="anonymous"></script>
       <Header isHome={isHome} />
       {/* <Transition location={location}> */}
       <ContentWrapper>{children}</ContentWrapper>

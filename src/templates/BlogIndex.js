@@ -425,13 +425,13 @@ const PaginationLink = props => {
       return (
         <div className={`${props.class} disabled`}>
           <span>{props.text}</span>{' '}
-          <FontAwesomeIcon icon={['far', 'long-arrow-alt-right']} />
+          <i class="fa-solid fa-right-long"></i>
         </div>
       );
     } else if (props.class === 'previous') {
       return (
         <div className={`${props.class} disabled`}>
-          <FontAwesomeIcon icon={['far', 'long-arrow-alt-left']} />{' '}
+          <i class="fa-solid fa-left-long"></i>{' '}
           <span>{props.text}</span>
         </div>
       );
