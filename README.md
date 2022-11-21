@@ -1,5 +1,3 @@
-![Banner](https://duvikan.sk/static/d6aa0226fb633d48ea1e85f5548be73d/aeb64/logo-black.png "Banner")
-
 # Duvikan karate club website
 
 Live @ [**https://duvikan.sk**](https://duvikan.sk)
